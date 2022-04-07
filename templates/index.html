@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+
+    <section class="showcase">
+        <header>
+            <div></div>
+            <div class="toggle"></div>
+        </header>
+        <h1 id="header">Simple Calculator</h1>
+        <div class="container">
+
+            <div class="row">
+                <div class="block" id="screen">0</div>
+            </div>
+
+            <div class="row">
+                <div class="block" id="clear">C</div>
+                <div class="block" id="clock">🕐</div>
+                <div class="block" id="bracket-left">(</div>
+                <div class="block" id="bracket-right">)</div>
+                <div class="block" id="divide">÷</div>
+            </div>
+
+            <div class="row">
+                <div class="block" id="seven">7</div>
+                <div class="block" id="eight">8</div>
+                <div class="block" id="nine">9</div>
+                <div class="block" id="multiply">*</div>
+            </div>
+
+            <div class="row">
+                <div class="block" id="four">4</div>
+                <div class="block" id="five">5</div>
+                <div class="block" id="six">6</div>
+                <div class="block" id="minus">-</div>
+            </div>
+
+            <div class="row">
+                <div class="block" id="one">1</div>
+                <div class="block" id="two">2</div>
+                <div class="block" id="three">3</div>
+                <div class="block" id="plus">+</div>
+            </div>
+
+            <div class="row">
+                <div class="block" id="zero">0</div>
+                <div class="block" id="dot">.</div>
+                <div class="block" id="equal">=</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="historyBar">
+        <h2>Calculation History</h2>
+        <p id="history"></p>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
